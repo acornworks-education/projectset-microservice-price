@@ -1,8 +1,6 @@
 var express = require('express');
 var logger = require('morgan');
 
-require('dotenv').config();
-
 var priceRouter = require('./routes/price');
 
 var app = express();
